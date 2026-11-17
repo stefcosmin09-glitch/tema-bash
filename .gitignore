@@ -1,0 +1,9 @@
+# Editors / OS junk
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Generated logs (log.txt is a committed test fixture and stays tracked)
+*.log
+!log.txt

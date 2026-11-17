@@ -1,0 +1,5 @@
+# Bash scripts must be stored/run with LF endings, otherwise WSL/Git Bash
+# fails with: $'\r': command not found  /  syntax error near unexpected token
+*.sh text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
